@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CursosComponent implements OnInit {
 
-  constructor() { }
+  linkedin: string;
+  techs: string[] = ['JavaScript', 'Angular', 'React']
+
+
+  constructor() {
+    this.linkedin = 'https://www.linkedin.com/in/leonardord99/'
+  }
 
   ngOnInit() {
   }

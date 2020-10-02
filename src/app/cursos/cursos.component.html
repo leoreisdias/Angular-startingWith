@@ -1,3 +1,11 @@
-<p>cursos works! YEAH</p>
+<p>
+  Meu LinkedIn {{linkedin}}
+</p>
 
 <app-curso-info></app-curso-info>
+
+<ul>
+  <li *ngFor="let tech of techs">
+    {{tech}}
+  </li>
+</ul>
